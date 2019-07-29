@@ -2943,18 +2943,13 @@
   "RootNamespace": "SuperHeroCreator",
   "Documents": [
     {
-      "FilePath": "Views/Home/Privacy.cshtml",
-      "TargetPath": "Views/Home/Privacy.cshtml",
+      "FilePath": "Views/Home/SuperHero.cshtml",
+      "TargetPath": "Views/Home/SuperHero.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Shared/_CookieConsentPartial.cshtml",
-      "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views/Home/Index.cshtml",
-      "TargetPath": "Views/Home/Index.cshtml",
+      "FilePath": "Views/SuperHero/Details.cshtml",
+      "TargetPath": "Views/SuperHero/Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2963,8 +2958,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Shared/Error.cshtml",
-      "TargetPath": "Views/Shared/Error.cshtml",
+      "FilePath": "Views/Shared/_CookieConsentPartial.cshtml",
+      "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/SuperHero/Index.cshtml",
+      "TargetPath": "Views/SuperHero/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/SuperHero/Edit.cshtml",
+      "TargetPath": "Views/SuperHero/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2973,8 +2978,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Home/Privacy.cshtml",
+      "TargetPath": "Views/Home/Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/SuperHero/Delete.cshtml",
+      "TargetPath": "Views/SuperHero/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/_ViewStart.cshtml",
       "TargetPath": "Views/_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/SuperHero/Create.cshtml",
+      "TargetPath": "Views/SuperHero/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Shared/Error.cshtml",
+      "TargetPath": "Views/Shared/Error.cshtml",
       "FileKind": "mvc"
     },
     {

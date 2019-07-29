@@ -28,3 +28,9 @@
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/SuperHeroCreator.dll
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/SuperHeroCreator.pdb
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/SuperHeroCreator.csproj.CopyComplete
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/SuperHero/Create.g.cshtml.cs
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/SuperHero/Delete.g.cshtml.cs
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/SuperHero/Details.g.cshtml.cs
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/SuperHero/Edit.g.cshtml.cs
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/SuperHero/Index.g.cshtml.cs
+/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Home/SuperHero.g.cshtml.cs
