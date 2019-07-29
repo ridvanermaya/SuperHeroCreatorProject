@@ -82,17 +82,19 @@ namespace SuperHeroCreator.Controllers
         // GET: SuperHeroController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var superHero = _context.SuperHeroes.Where(x => x.Id == id).FirstOrDefault();
+            return View(superHero);
         }
 
         // POST: SuperHeroController/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(SuperHero superHero)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                _context.Remove(superHero);
+                _context.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
