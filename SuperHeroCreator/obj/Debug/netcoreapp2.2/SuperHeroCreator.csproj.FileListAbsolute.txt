@@ -15,7 +15,6 @@
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/SuperHeroCreator.TagHelpers.output.cache
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/SuperHeroCreator.RazorCoreGenerate.cache
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
-/Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
 /Users/redone/git/DevCodeCamp/Week_07/Projects/SuperHeroCreatorProject/SuperHeroCreator/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
