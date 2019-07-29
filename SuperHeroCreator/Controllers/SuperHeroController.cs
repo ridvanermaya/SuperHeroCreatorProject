@@ -20,14 +20,15 @@ namespace SuperHeroCreator.Controllers
         // GET: RedsCon
         public ActionResult Index()
         {
-            var thing = _context.SuperHeroes.ToList();
-            return View(thing);
+            var superHeroesList = _context.SuperHeroes.ToList();
+            return View(superHeroesList);
         }
 
         // GET: RedsCon/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            var superHero = _context.SuperHeroes.Where(i => i.Id == id).FirstOrDefault();
+            return View(superHero);
         }
 
         // GET: RedsCon/Create
