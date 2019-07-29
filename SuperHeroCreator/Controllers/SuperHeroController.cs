@@ -17,28 +17,28 @@ namespace SuperHeroCreator.Controllers
         {
             _context = context;
         }
-        // GET: RedsCon
+        // GET: SuperHeroController
         public ActionResult Index()
         {
             var superHeroesList = _context.SuperHeroes.ToList();
             return View(superHeroesList);
         }
 
-        // GET: RedsCon/Details/5
+        // GET: SuperHeroController/Details/5
         public ActionResult Details(int id)
         {
             var superHero = _context.SuperHeroes.Where(i => i.Id == id).FirstOrDefault();
             return View(superHero);
         }
 
-        // GET: RedsCon/Create
+        // GET: SuperHeroController/Create
         public ActionResult Create()
         {
             SuperHero superHero = new SuperHero();
             return View();
         }
 
-        // POST: RedsCon/Create
+        // POST: SuperHeroController/Create
         [HttpPost]
         public ActionResult Create(SuperHero superHero)
         {
@@ -55,20 +55,22 @@ namespace SuperHeroCreator.Controllers
             }
         }
 
-        // GET: RedsCon/Edit/5
+        // GET: SuperHeroController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var superHero = _context.SuperHeroes.Where(x => x.Id == id).FirstOrDefault();
+            return View(superHero);
         }
 
-        // POST: RedsCon/Edit/5
+        // POST: SuperHeroController/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(SuperHero superHero)
         {
             try
             {
                 // TODO: Add update logic here
-
+                _context.Update(superHero);
+                _context.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
@@ -77,13 +79,13 @@ namespace SuperHeroCreator.Controllers
             }
         }
 
-        // GET: RedsCon/Delete/5
+        // GET: SuperHeroController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: RedsCon/Delete/5
+        // POST: SuperHeroController/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
